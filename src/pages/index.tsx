@@ -1,19 +1,16 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+export default function Home({ title = 'Boilerplate React' }) {
   return (
     <div>
       <Head>
-        <title>Boilerplate</title>
+        <title>{title} </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>
-          Hello World
-        </h1>
+        <h1>{title}</h1>
       </main>
-
     </div>
-  )
+  );
 }
