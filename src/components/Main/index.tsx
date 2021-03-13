@@ -1,6 +1,6 @@
 const Main = () => (
   <div>
-    <header role="heading">React com NextJS</header>
+    <h1>React com NextJS</h1>
   </div>
 );
 
