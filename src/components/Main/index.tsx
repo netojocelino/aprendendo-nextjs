@@ -1,6 +1,6 @@
-const Main = () => (
+const Main = ({ title = 'React com NextJS' }) => (
   <div>
-    <h1>React com NextJS</h1>
+    <h1>{title}</h1>
   </div>
 );
 
